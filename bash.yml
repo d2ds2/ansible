@@ -1,0 +1,8 @@
+---
+- hosts: all
+  user: tikt
+  become: true
+  gather_facts: no
+  tasks:
+  - name: Check bash
+    shell: echo "Hi! Tower is working."
