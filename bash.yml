@@ -1,6 +1,7 @@
 ---
 - hosts: all
   user: tikt
+  password: UbuntuT16
   become: true
   gather_facts: no
   tasks:
